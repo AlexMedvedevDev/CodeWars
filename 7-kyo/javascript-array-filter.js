@@ -4,7 +4,6 @@ INSTRUCTIONS
 // getEvenNumbers([2,4,5,6]) // should == [2,4,6]
 
 SOLUTIONS
-
 function getEvenNumbers(numbersArray){
     return numbersArray.filter(x => x % 2 === 0);
 }
